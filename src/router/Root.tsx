@@ -1,4 +1,3 @@
-import React from "react";
 import { NavBar } from "../components/common/NavBar";
 import TramosPage from "../page/TramosPage";
 import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom";

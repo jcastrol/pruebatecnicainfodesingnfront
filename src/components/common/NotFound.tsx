@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { PAGES } from "../../router/Root";
+import { PAGES } from "../../constant/Pages";
+
 
 const NotFound = () => {
   return (

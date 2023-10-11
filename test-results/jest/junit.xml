@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="7.979">
+  <testsuite name="ClientesPage Component" errors="0" failures="0" skipped="0" timestamp="2023-10-11T15:44:13" time="7.125" tests="4">
+    <testcase classname="ClientesPage Component renders without errors" name="ClientesPage Component renders without errors" time="0.057">
+    </testcase>
+    <testcase classname="ClientesPage Component displays the title" name="ClientesPage Component displays the title" time="0.03">
+    </testcase>
+    <testcase classname="ClientesPage Component renders DateRangePickerSpanish component" name="ClientesPage Component renders DateRangePickerSpanish component" time="0.019">
+    </testcase>
+    <testcase classname="ClientesPage Component renders Select component" name="ClientesPage Component renders Select component" time="0.012">
+    </testcase>
+  </testsuite>
+</testsuites>

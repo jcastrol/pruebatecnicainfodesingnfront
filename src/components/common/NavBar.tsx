@@ -1,5 +1,6 @@
 import { NavLink, Outlet } from "react-router-dom";
-import { PAGES } from "../../router/Root";
+import { PAGES } from "../../constant/Pages";
+
 
 export const NavBar = () => {
   const base = "rounded-md px-3 py-2 text-sm font-medium";

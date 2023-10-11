@@ -21,6 +21,7 @@ export function DateRangePickerSpanish({
       selectPlaceholder="Seleccionar"
       color="rose"
       enableYearNavigation={true}
+      data-testid="date-range-picker"
     >
       <DateRangePickerItem
         key="half"

@@ -28,9 +28,9 @@ const ClientesPage = () => {
   const component = useMemo(() => {
     return (
       <>
-        <DateRangePickerSpanish value={date} onValue={setDate} />
+        <DateRangePickerSpanish value={date} onValue={setDate}  />
         <div className="max-w-sm mt-auto space-y-6">
-        <Select value={select} onValueChange={setselect} placeholder="Filtra por">
+        <Select value={select} onValueChange={setselect} placeholder="Filtra por" data-testid="select-filter">
           <SelectItem value="residencial">Residencial</SelectItem>
           <SelectItem value="comercial">Comercial</SelectItem>
           <SelectItem value="industrial">Industrial</SelectItem>
