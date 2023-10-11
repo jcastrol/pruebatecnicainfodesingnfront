@@ -7,11 +7,7 @@ import NotFound from "../components/common/NotFound";
 import ClientesPage from "../page/ClientesPage";
 import TramosClientesPage from "../page/TramosClientesPage";
 
-export const PAGES = {
-  tramos: "tramos",
-  clientes: "clientes",
-  tramosClientes: "tramos-clientes",
-};
+
 
 const Root = () => {
   return (
