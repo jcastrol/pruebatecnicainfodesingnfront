@@ -9,12 +9,13 @@ import {
   TableHeaderCell,
   TableBody,
 } from "@tremor/react";
+import { DataItem } from "../../models/DataItem";
 
 interface TableColumn {
   key: string;
   title: string;
 }
-export type DataItem= { [key: string]: string | number }
+
 
 type TableCardProps<T extends DataItem> ={
   data: Array<T>;
